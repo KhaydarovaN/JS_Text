@@ -1,0 +1,39 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::before
+*::after {
+	box-sizing: inherit;
+}
+body {
+	margin: 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.page {
+	min-height: 100vh;
+	background-color: #fabdaa;
+	padding: 0px 130px;
+}
+#textarea {
+	resize: none;
+	width: 1200px;
+	height: 200px;
+	padding: 35px;
+	font-size: 35px;
+	margin-bottom: 35px;
+	font-family: sans-serif;
+	border: 5px solid green;
+}
+.div {
+	width: 1200px;
+	height: 200px;
+	background-color: green;
+	color: #fff;
+	font-size: 35px;
+	padding: 40px;
+
+}
